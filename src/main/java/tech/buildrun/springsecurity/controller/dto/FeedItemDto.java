@@ -1,4 +1,4 @@
 package tech.buildrun.springsecurity.controller.dto;
 
-public class FeedItemDto {
+public record FeedItemDto(long tweetId, String content, String username) {
 }
